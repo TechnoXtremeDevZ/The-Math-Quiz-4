@@ -1,0 +1,21 @@
+﻿body {
+    text-align: center;
+}
+
+.body-background {
+    background-color: red;
+}
+
+#p1_login, p2_login {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+#output {
+    background:white;
+    border-radius:10px;
+    border-top:10px solid #AA4465; 
+    padding:10px;
+    float:none;
+    text-align:left;
+}

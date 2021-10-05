@@ -1,0 +1,16 @@
+﻿body {
+    text-align:center;
+}
+.body-background {
+    background-color:red;
+}
+.login_div1 {
+    background:white;
+    padding:10px;
+    float:none;
+    border-radius:15px;
+}
+#p1_login, p2_login {
+    display:inline-block;
+    margin-left:20px;
+}

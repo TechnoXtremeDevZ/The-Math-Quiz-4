@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>The Math Quiz</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.css"></script>
+    <script src="https://maxdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="main.js"></script>
+    <script src="quiz_login.js"></script>
+    <link rel="stylesheet" href="quiz_game.css" />
+    <script src="quiz_game.js"></script>
+</head>
+<body class="body-background">
+    <center>
+        <div id="player1" class="col-lg-4 col-sm-8 col-xs-11 login_div1">
+            <h2 id="p1_intro">
+                Player 1 Login for Game
+            </h2>
+            <label>
+                User Name:
+            </label>
+            <input id="p1_login" class="form-control"
+                   placeholder="Player 1 Name" />
+        </div>
+        <br />
+        <br />
+        <div id="player2" class="col-lg-4 col-sm-8 col-xs-11 login_div1">
+            <h2 id="p2_intro">
+                Player 2 Login for Game
+            </h2>
+            <label>
+                User Name:
+            </label>
+            <input id="p2_login" class="form-control"
+                   placeholder="Player 2 Name" />
+        </div>
+        <br />
+        <button id="login_button" width="30%" class="btn btn-info"
+                onclick="addUser()">
+            Login
+        </button>
+    </center>
+</body>
+</html>
